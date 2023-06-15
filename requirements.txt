@@ -1,0 +1,7 @@
+click
+ruff
+setuptools
+invoke
+pyinvoke
+pytest
+pytest-cov
