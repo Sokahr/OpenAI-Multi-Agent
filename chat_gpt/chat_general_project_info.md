@@ -135,22 +135,6 @@ for feedback, revisions, and refinement of the generated code or components.
 - Enhance the CLI interface for a more intuitive and user-friendly experience.
 - Expand the AI agent generation mechanism to cover a wider range of development tasks.
 - Incorporate user feedback and iterate on the product based on early adopter experiences.
--
-
-#### Roadmap for the First Milestone:
-
-1. Develop the CLI application framework with basic user interaction and input processing capabilities.
-2. Implement a simple AI agent generation mechanism that can capture and clarify user input.
-3. Enable basic code generation or component creation based on user requirements.
-4. Enhance the CLI interface for a more intuitive and user-friendly experience.
-5. Integrate advanced NLP capabilities to improve the understanding and processing of user inputs.
-6. Conduct initial user testing and gather feedback for further enhancements.
-
-Additionally, we will consider the following aspects:
-
-- Addressing dependencies, such as access to necessary OpenAI technologies, APIs, and models.
-- Establishing a feedback mechanism for gathering user feedback during initial testing.
-- Tracking progress, setting specific timelines, and assigning responsibilities for each task.
 
 ### Milestone 3: Collaboration and Iteration Enhancements
 
@@ -177,3 +161,217 @@ Additionally, we will consider the following aspects:
 - Throughout the roadmap, regular iterations and releases should be conducted to incorporate user feedback, address
   issues, and improve the overall product.
 
+## User Research
+
+User Research Insights - Ben Interview
+
+During the interview with Ben, our first user, we gathered valuable insights regarding his experience and expectations
+related to developing complex digital products. Here are the key findings:
+
+1. Experience with Developing Complex Digital Products:
+    - Ben mentioned that developing complex digital products involves extensive planning and long development periods.
+    - He expressed the challenge of defining different features and parts during the development process.
+
+2. Communicating Product Vision and Requirements:
+    - Ben highlighted that he currently does not have a specific method or tool to communicate his product vision and
+      requirements.
+    - Limited resources prevent him from engaging with a development team or experts.
+
+3. Key Aspects and Functionalities:
+    - Ben emphasized the importance of having a detailed execution plan and a guide to facilitate fast implementation of
+      functions.
+    - Code generation based on the execution plan was identified as the next crucial step in his development process.
+
+4. Ideal User Experience:
+    - Ben expressed his preference for the tool to question him about the product he wants to create.
+    - He expects the tool to generate an execution plan, starting from a global roadmap down to epics, user stories, and
+      simple tasks that an inexperienced person can handle.
+    - Ben also mentioned that the tool should conduct interviews for further guidance on the product's usage and target
+      audience.
+    - The tool should eventually execute the execution plan autonomously, generating the digital product (e.g., apps,
+      servers, websites, etc.).
+
+These user research insights will serve as a foundation for designing OpenAI MAC. They provide valuable guidance on the
+desired features, functionalities, and user experience that align with Ben's needs. We will leverage these insights to
+shape the product roadmap, prioritize development efforts, and ensure that OpenAI MAC effectively addresses the
+challenges faced by our target audience.
+
+## User Personas
+
+Based on the user research insights and collaboration with Ronnie, the following user personas have been created to
+represent our target audience:
+
+### User Persona 1: Tech-Savvy Solo Developer
+
+- Characteristics:
+    - Proficient in development tools and technologies.
+    - Limited budget and resources.
+    - Comfortable working independently.
+
+- Goals:
+    - Efficiently plan and execute the development process.
+    - Generate code and components to accelerate product development.
+    - Minimize dependency on external experts.
+
+- Pain Points:
+    - Challenges in defining and structuring features during development.
+    - Limited resources and access to expert guidance.
+
+### User Persona 2: Non-Technical Entrepreneur
+
+- Characteristics:
+    - Limited technical skills.
+    - Idea-driven and focused on business aspects.
+    - Lack of time for extensive product development.
+
+- Goals:
+    - Easily communicate product vision to the development team.
+    - Generate an execution plan to guide the development process.
+    - Create a functional digital product aligned with their vision.
+
+- Pain Points:
+    - Difficulty in effectively conveying product vision and requirements.
+    - Time constraints and need for a streamlined development process.
+
+These user personas will serve as valuable references throughout the product development process, enabling us to design
+OpenAI MAC to address the specific needs, goals, and pain points of our target audience.
+
+#### UI/UX Design
+
+**Reviewed Wireframes for OpenAI MAC Command Line Interface (CLI):**
+
+1. Main Menu:
+
+```
+=========================================================
+                      OpenAI MAC
+=========================================================
+
+Please select an option:
+1. Start a new project - Create a new project and set it up.
+2. Load existing project - Load a previously created project.
+3. Help - Get assistance and information about OpenAI MAC.
+4. Exit - Quit the OpenAI MAC CLI.
+
+Enter your choice: 
+```
+
+2. New Project Setup:
+
+```
+=========================================================
+                  New Project Setup
+=========================================================
+
+Please enter the following information:
+
+Enter Project Name:
+[User enters the project name]
+
+Enter Project Description:
+[User enters a brief description]
+
+After providing the project information, you will have the following choices:
+
+1. Enter 'back' to return to the main menu.
+2. Enter 'cancel' to exit.
+
+Enter your choice: 
+```
+
+3. Load Project:
+
+```
+=========================================================
+                   Load Project
+=========================================================
+
+Please select a project to load:
+
+1. Project 1 (Created on [Creation Date])
+2. Project 2 (Created on [Creation Date])
+3. Project 3 (Created on [Creation Date])
+
+Enter 'back' to return to the main menu.
+Enter 'cancel' to exit.
+
+Enter your choice: 
+```
+
+4. Help:
+
+```
+=========================================================
+                         Help
+=========================================================
+
+Welcome to the Help section of OpenAI MAC. Here you can find information and instructions on how to use the CLI tool.
+
+1. About OpenAI MAC - Learn more about OpenAI MAC and its capabilities.
+2. Getting Started - Get started with OpenAI MAC and set up your projects.
+3. Commands and Usage - Explore the available commands and their usage.
+4. FAQs - Find answers to frequently asked questions.
+
+Enter 'back' to return to the main menu.
+Enter 'cancel' to exit.
+
+Enter your choice: 
+```
+
+5. Project Dashboard:
+
+```
+=========================================================
+                   Project Dashboard
+=========================================================
+
+Project: [Project Name]
+Description: [Project Description]
+
+Please select an option:
+1. View Project Details - See the project's details, tasks, and progress.
+2. Edit Project Details - Modify the project's name and description.
+3. Create AI Development Team - Set up an AI Development team for the project.
+4. Generate Code - Generate code based on the project's requirements.
+5. Save Project - Save the current project and its progress.
+6. Exit - Exit the project and return to the main menu.
+
+Enter your choice: 
+```
+
+These reviewed wireframes reflect the finalized design for the text-based Command Line Interface (CLI) of OpenAI MAC.
+They provide a clear and intuitive user interface for interacting with the CLI tool, allowing users to start new
+projects, load existing projects, access help documentation, and manage project-specific actions from the project
+dashboard. These wireframes serve as a visual reference for the CLI interface and will be included in the project
+documentation for future development and reference.
+
+## User Needs:
+
+Based on the factors of frequency of mention, alignment with the product vision, and potential value to the target
+audience, I have prioritized the user needs and created a ranked list. Please note that this prioritization is
+subjective and can be adjusted based on specific product goals and constraints. Here is the prioritized list of user
+needs:
+
+1. Communication and Collaboration:
+    - Effectively communicate product vision and requirements to the development team.
+    - Bridge the gap between technical and non-technical stakeholders.
+    - Facilitate collaboration and understanding between all stakeholders involved in the development process.
+
+2. Product Planning and Guidance:
+    - Provide a detailed execution plan to guide the development process.
+    - Assist in structuring and defining features during product development.
+    - Offer step-by-step guidance for efficient implementation.
+
+3. Code Generation and Automation:
+    - Generate code or components based on the product vision and requirements.
+    - Automate repetitive tasks to streamline the development process.
+    - Simplify complex development tasks through code generation and automation.
+
+4. Autonomous Execution:
+    - Enable autonomous execution of the generated execution plan.
+    - Execute the plan to generate the digital product (e.g., apps, servers, websites) with minimal user involvement.
+    - Streamline the development process by automating the execution of tasks.
+
+By prioritizing user needs in this ranked list, we can guide feature prioritization and decision-making, focusing on
+addressing the most critical needs that align with the product vision and offer significant value to the target
+audience.
