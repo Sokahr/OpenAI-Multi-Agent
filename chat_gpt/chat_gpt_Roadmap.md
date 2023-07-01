@@ -9,8 +9,6 @@
   Summary of the Roadmap for the First Milestone:
 - Establishing a feedback mechanism for gathering user feedback during initial testing.
 - Tracking progress, setting specific timelines, and assigning responsibilities for each task.
-  Certainly! Based on the improvements and suggestions provided by the team members, here is the refined roadmap for the
-  first milestone of OpenAI MAC:
 
 ### 1. Task 1: CLI Application Framework Development
 
