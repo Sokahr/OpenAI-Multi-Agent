@@ -238,9 +238,11 @@ OpenAI MAC to address the specific needs, goals, and pain points of our target a
 
 #### UI/UX Design
 
-**Reviewed Wireframes for OpenAI MAC Command Line Interface (CLI):**
+_Overall structure and layout of the CLI application interface._
 
-1. Main Menu:
+Visual representation of the CLI interface structure:
+
+##### Part 1: Main Menu
 
 ```
 =========================================================
@@ -253,33 +255,36 @@ Please select an option:
 3. Help - Get assistance and information about OpenAI MAC.
 4. Exit - Quit the OpenAI MAC CLI.
 
-Enter your choice: 
+Enter your choice:
 ```
 
-2. New Project Setup:
+This is the initial screen users see when they launch the CLI application. It presents a clear menu with numbered
+options for different actions. Users can enter the corresponding number or use arrow keys to navigate and select an
+option. After making a selection, the CLI will process the choice and proceed accordingly.
+
+##### Part 2: New Project Setup
 
 ```
 =========================================================
                   New Project Setup
 =========================================================
 
-Please enter the following information:
+Please provide the following information:
 
-Enter Project Name:
-[User enters the project name]
+Project Name: [Project Name]
+Project Description: [Project Description]
 
-Enter Project Description:
-[User enters a brief description]
+Enter 'back' to return to the main menu.
+Enter 'cancel' to exit.
 
-After providing the project information, you will have the following choices:
-
-1. Enter 'back' to return to the main menu.
-2. Enter 'cancel' to exit.
-
-Enter your choice: 
+Enter your choice:
 ```
 
-3. Load Project:
+In this part, users are prompted to enter the required information for setting up a new project. They are asked to
+provide the project name and description. Users can enter the information accordingly. They also have the option to go
+back to the main menu by entering 'back' or exit the CLI by entering 'cancel'.
+
+##### Part 3: Load Project
 
 ```
 =========================================================
@@ -295,10 +300,14 @@ Please select a project to load:
 Enter 'back' to return to the main menu.
 Enter 'cancel' to exit.
 
-Enter your choice: 
+Enter your choice:
 ```
 
-4. Help:
+In this part, users are presented with a list of existing projects that they can choose to load. Each project is labeled
+with a number and its creation date. Users can enter the corresponding number to select a project to load. They also
+have the option to go back to the main menu by entering 'back' or exit the CLI by entering 'cancel'.
+
+##### Part 4: Help
 
 ```
 =========================================================
@@ -315,10 +324,15 @@ Welcome to the Help section of OpenAI MAC. Here you can find information and ins
 Enter 'back' to return to the main menu.
 Enter 'cancel' to exit.
 
-Enter your choice: 
+Enter your choice:
 ```
 
-5. Project Dashboard:
+In this part, users can access the Help section of the CLI application. They are presented with a menu of options that
+provide information and instructions on various aspects of using OpenAI MAC. Users can enter the corresponding number to
+select a specific topic they want to learn more about. They also have the option to go back to the main menu by
+entering 'back' or exit the CLI by entering 'cancel'.
+
+##### Part 5: Project Dashboard
 
 ```
 =========================================================
@@ -336,14 +350,85 @@ Please select an option:
 5. Save Project - Save the current project and its progress.
 6. Exit - Exit the project and return to the main menu.
 
-Enter your choice: 
+Enter your choice:
 ```
 
-These reviewed wireframes reflect the finalized design for the text-based Command Line Interface (CLI) of OpenAI MAC.
-They provide a clear and intuitive user interface for interacting with the CLI tool, allowing users to start new
-projects, load existing projects, access help documentation, and manage project-specific actions from the project
-dashboard. These wireframes serve as a visual reference for the CLI interface and will be included in the project
-documentation for future development and reference.
+In this part, users are presented with the Project Dashboard where they can manage and interact with a specific project.
+The dashboard displays the project name and description. Users are then presented with a menu of options to perform
+various actions related to the project. They can select a corresponding number to choose an action. The options include
+viewing project details, editing project details, creating an AI Development team, generating code, saving the project,
+or exiting the project and returning to the main menu.
+
+##### Visual style and branding
+
+Part 1: Color Scheme
+
+The color scheme for the CLI application should be chosen to enhance readability, provide a visually appealing
+experience, and align with the overall product branding. It is important to consider color contrast for text and
+elements to ensure accessibility.
+
+Please note that as a text-based interface, the color scheme will primarily consist of foreground and background colors.
+
+The primary color for the CLI application's text and elements will be a deep blue shade. The hex code for this color is
+#192E5B.
+
+Part 2: Background Color
+
+The background color of the CLI application should provide good contrast with the text and elements to ensure
+readability. It should also create a visually pleasing experience.
+
+The background color for the CLI application will be a light gray shade. The hex code for this color is #F5F5F5.
+
+Part 3: Accent Color
+
+The accent color in the CLI application can be used to highlight certain elements or provide visual cues for important
+information or actions. It should complement the primary color and add visual interest to the interface.
+
+The accent color for the CLI application will be a vibrant green shade. The hex code for this color is #00B894.
+
+Part 4: Typography
+
+The choice of typography plays a crucial role in the CLI application's visual style and readability. It is important to
+select fonts that are legible and appropriate for a text-based interface.
+
+The primary font for the CLI application will be "Roboto Mono", a monospaced font that is well-suited for displaying
+code and text in a terminal environment.
+
+The secondary font for the CLI application will be "Open Sans", a versatile sans-serif font that provides excellent
+readability for interface elements and headings.
+
+Please note that these font choices are suggestions, and the actual availability of fonts may depend on the target
+platform and environment. It is recommended to ensure that the selected fonts are widely supported and can be displayed
+correctly in the intended CLI environment.
+
+Part 5: Button Styles
+
+Buttons in the CLI application serve as interactive elements for users to perform actions or navigate through the
+interface. Designing consistent and visually distinguishable button styles helps users identify and interact with these
+elements effectively.
+
+Button Styles for the CLI Application:
+
+Background Color:
+
+Default state: #00B894 (vibrant green)
+Hover state: #00D9A7 (lighter shade of green)
+Active state: #00876B (darker shade of green)
+Text Color:
+
+Default state: #FFFFFF (white)
+Hover state: #FFFFFF (white)
+Active state: #FFFFFF (white)
+Additional Styling Considerations:
+
+Use a subtle transition or animation effect to provide visual feedback when hovering or clicking on a button.
+Consider using a slightly larger font size or bold weight for button labels to make them more prominent.
+Ensure that the button styles are consistent across the CLI application, providing a cohesive and intuitive user
+experience.
+Please note that these button styles are suggestions, and the actual implementation may vary based on the CLI framework
+or toolkit being used.
+
+
 
 ## User Needs:
 
