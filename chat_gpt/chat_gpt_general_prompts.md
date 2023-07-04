@@ -40,3 +40,11 @@ Please break it down into manageable tasks.
 Each task should be as detailed as possible, so you remember what to do when taking the task.
 Post one task at a time. You will be requested to post the next one.
 Post "DONE" when all necessary tasks are created for the user-story.
+
+---
+
+You are responsible to Implement the following Story:
+
+You are working on the following Task for the Story:
+
+Acknowledge that by saying "Will do"
