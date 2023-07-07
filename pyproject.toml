@@ -1,22 +1,40 @@
-[build-system]
-requires = ["setuptools"]
-buid-backend = "setuptools.build_meta"
-
 [project]
 name = "OpenAI-MAC"
 version = "0.0.1"
 
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.dependencies]
+dev = [
+  {editable = true, path = "./src/openai_mac"}
+]
+
 [tool.ruff]
 # Enable pycodestyle (`E`) and Pyflakes (`F`) codes by default.
-select = [ "B", "E", "F", "W", "I", "D", "UP", "N", "C90" ]
-ignore = ["D203", "D212"]
+select = [
+    "B",
+    "E",
+    "F",
+    "W",
+    "I",
+    "D",
+    "UP",
+    "N",
+    "C90"
+]
+
+ignore = [
+    "D203",
+    "D212"
+]
 
 # Allow autofix for all enabled rules (when `--fix`) is provided.
 fixable = ["A", "B", "C", "D", "E", "F", "G", "I", "N", "Q", "S", "T", "W", "ANN", "ARG", "BLE", "COM", "DJ", "DTZ",
     "EM", "ERA", "EXE", "FBT", "ICN", "INP", "ISC", "NPY", "PD", "PGH", "PIE", "PL", "PT", "PTH", "PYI", "RET", "RSE",
     "RUF", "SIM", "SLF", "TCH", "TID", "TRY", "UP", "YTT"]
 unfixable = []
-
 
 exclude = [
     ".bzr",
@@ -46,7 +64,7 @@ line-length = 120
 
 [tool.pytest.ini_options]
 addopts = [
-    "--cov=src",
-    "--cov-fail-under=98",
-    "--cov-branch"
+    "--cov=src", # Enable coverage report for code under the `src` directory.
+    "--cov-fail-under=98", # Set the minimum required coverage percentage to 98.
+    "--cov-branch"            # Enable branch coverage analysis.
 ]
