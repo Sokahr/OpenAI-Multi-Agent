@@ -239,7 +239,6 @@ OpenAI MAC to address the specific needs, goals, and pain points of our target a
 #### UI/UX Design
 
 _Overall structure and layout of the CLI application interface._
-Certainly! Here are the updated mock-ups reflecting the suggested changes for a terminal-based CLI application design:
 
 **Part 1: Main Menu**
 
