@@ -239,10 +239,9 @@ OpenAI MAC to address the specific needs, goals, and pain points of our target a
 #### UI/UX Design
 
 _Overall structure and layout of the CLI application interface._
+Certainly! Here are the updated mock-ups reflecting the suggested changes for a terminal-based CLI application design:
 
-Visual representation of the CLI interface structure:
-
-##### Part 1: Main Menu
+**Part 1: Main Menu**
 
 ```
 =========================================================
@@ -250,19 +249,15 @@ Visual representation of the CLI interface structure:
 =========================================================
 
 Please select an option:
-1. Start a new project - Create a new project and set it up.
-2. Load existing project - Load a previously created project.
-3. Help - Get assistance and information about OpenAI MAC.
-4. Exit - Quit the OpenAI MAC CLI.
+[1] Start a new project
+[2] Load existing project
+[3] Help
+[4] Exit
 
 Enter your choice:
 ```
 
-This is the initial screen users see when they launch the CLI application. It presents a clear menu with numbered
-options for different actions. Users can enter the corresponding number or use arrow keys to navigate and select an
-option. After making a selection, the CLI will process the choice and proceed accordingly.
-
-##### Part 2: New Project Setup
+**Part 2: New Project Setup**
 
 ```
 =========================================================
@@ -280,11 +275,7 @@ Enter 'cancel' to exit.
 Enter your choice:
 ```
 
-In this part, users are prompted to enter the required information for setting up a new project. They are asked to
-provide the project name and description. Users can enter the information accordingly. They also have the option to go
-back to the main menu by entering 'back' or exit the CLI by entering 'cancel'.
-
-##### Part 3: Load Project
+**Part 3: Load Project**
 
 ```
 =========================================================
@@ -293,9 +284,9 @@ back to the main menu by entering 'back' or exit the CLI by entering 'cancel'.
 
 Please select a project to load:
 
-1. Project 1 (Created on [Creation Date])
-2. Project 2 (Created on [Creation Date])
-3. Project 3 (Created on [Creation Date])
+[1] Project 1 (Created on [Creation Date])
+[2] Project 2 (Created on [Creation Date])
+[3] Project 3 (Created on [Creation Date])
 
 Enter 'back' to return to the main menu.
 Enter 'cancel' to exit.
@@ -303,11 +294,7 @@ Enter 'cancel' to exit.
 Enter your choice:
 ```
 
-In this part, users are presented with a list of existing projects that they can choose to load. Each project is labeled
-with a number and its creation date. Users can enter the corresponding number to select a project to load. They also
-have the option to go back to the main menu by entering 'back' or exit the CLI by entering 'cancel'.
-
-##### Part 4: Help
+**Part 4: Help**
 
 ```
 =========================================================
@@ -316,10 +303,10 @@ have the option to go back to the main menu by entering 'back' or exit the CLI b
 
 Welcome to the Help section of OpenAI MAC. Here you can find information and instructions on how to use the CLI tool.
 
-1. About OpenAI MAC - Learn more about OpenAI MAC and its capabilities.
-2. Getting Started - Get started with OpenAI MAC and set up your projects.
-3. Commands and Usage - Explore the available commands and their usage.
-4. FAQs - Find answers to frequently asked questions.
+[1] About OpenAI MAC
+[2] Getting Started
+[3] Commands and Usage
+[4] FAQs
 
 Enter 'back' to return to the main menu.
 Enter 'cancel' to exit.
@@ -327,12 +314,7 @@ Enter 'cancel' to exit.
 Enter your choice:
 ```
 
-In this part, users can access the Help section of the CLI application. They are presented with a menu of options that
-provide information and instructions on various aspects of using OpenAI MAC. Users can enter the corresponding number to
-select a specific topic they want to learn more about. They also have the option to go back to the main menu by
-entering 'back' or exit the CLI by entering 'cancel'.
-
-##### Part 5: Project Dashboard
+**Part 5: Project Dashboard**
 
 ```
 =========================================================
@@ -343,21 +325,15 @@ Project: [Project Name]
 Description: [Project Description]
 
 Please select an option:
-1. View Project Details - See the project's details, tasks, and progress.
-2. Edit Project Details - Modify the project's name and description.
-3. Create AI Development Team - Set up an AI Development team for the project.
-4. Generate Code - Generate code based on the project's requirements.
-5. Save Project - Save the current project and its progress.
-6. Exit - Exit the project and return to the main menu.
+[1] View Project Details
+[2] Edit Project Details
+[3] Create AI Development Team
+[4] Generate Code
+[5] Save Project
+[6] Exit
 
 Enter your choice:
 ```
-
-In this part, users are presented with the Project Dashboard where they can manage and interact with a specific project.
-The dashboard displays the project name and description. Users are then presented with a menu of options to perform
-various actions related to the project. They can select a corresponding number to choose an action. The options include
-viewing project details, editing project details, creating an AI Development team, generating code, saving the project,
-or exiting the project and returning to the main menu.
 
 
 ## User Needs:
