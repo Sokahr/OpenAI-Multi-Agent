@@ -1,10 +1,20 @@
 """Tasks to invoke."""
 from invoke import task
 
-def _run(ctx, cmd, **kwargs):
-    ctx.run(cmd, echo=True, **kwargs)
 
-@task("lint")
+@task
+def test(ctx):
+    """Run pytest tests."""
+    ctx.run("pytest ./")
+
+
+@task
 def lint(ctx):
-    """Lint code."""
-    _run(ctx, "ruff --check")
+    """Run the ruff linter."""
+    ctx.run("ruff ./")
+
+
+@task
+def fix(ctx):
+    """Run the ruff linter with the --fix flag."""
+    ctx.run("ruff ./ --fix")

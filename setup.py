@@ -1,4 +1,11 @@
-from setuptools import setup, find_packages
+"""
+OpenAI MAC CLI Application Setup.
+
+This file defines the project setup and dependencies for the OpenAI MAC CLI application.
+It includes metadata about the project, such as name, version, author, and dependencies.
+"""
+
+from setuptools import find_packages, setup
 
 setup(
     name="openai-mac-cli",
