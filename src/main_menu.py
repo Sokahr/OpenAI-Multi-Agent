@@ -1,10 +1,12 @@
 """
-This module implements the main menu functionality for the OpenAI MAC application.
+Module implements the main menu functionality for the OpenAI MAC application.
+
 It provides a command-line interface (CLI) with options for starting a new project, loading an existing project,
 accessing help, and exiting the program.
 """
 
 import click
+
 
 class MainMenu:
     """The main menu of the OpenAI MAC application."""
@@ -34,8 +36,8 @@ class MainMenu:
         Execute the appropriate command based on the user's choice.
 
         Args:
-        ---
-            choice (int): The user's choice representing the selected option.
+        ----
+        choice (int): The user's choice representing the selected option.
         """
         if choice == 1:
             self.start_new_project()

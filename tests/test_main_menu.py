@@ -1,15 +1,14 @@
-"""
-This module contains tests for 
-the main menu functionality of the OpenAI MAC application.
-"""
+"""Module contains tests for the main menu functionality of the OpenAI MAC application."""
 
 import pytest
 from click.testing import CliRunner
+
 from src.main_menu import MainMenu
 
 
 @pytest.fixture
 def runner():
+    """Fixture to invoke command-line interfaces."""
     return CliRunner()
 
 
