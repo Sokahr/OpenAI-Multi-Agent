@@ -9,8 +9,7 @@ import click
 
 class MainMenu:
     """
-    This class represents the main menu of the OpenAI MAC application.
-    It provides options for starting a new project, loading an existing project, accessing help, and exiting the program.
+    The main menu of the OpenAI MAC application.
     """
 
     @staticmethod
