@@ -5,7 +5,7 @@ from invoke import task
 @task
 def test(ctx):
     """Run pytest tests."""
-    ctx.run("pytest ./")
+    ctx.run("pytest")
 
 
 @task
